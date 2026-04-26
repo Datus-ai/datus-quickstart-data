@@ -11,6 +11,7 @@ URLs for tutorials.
 The `data-engineering-v1` release contains:
 
 - `datus-de-lever-quickstart-v1.zip`
+- `datus-de-lever-quickstart-v1.zip.sha256`
 
 Download and prepare it:
 
@@ -20,18 +21,14 @@ cd ~/datus-quickstart-data
 
 curl -L -o datus-de-lever-quickstart-v1.zip \
   https://github.com/Datus-ai/datus-quickstart-data/releases/download/data-engineering-v1/datus-de-lever-quickstart-v1.zip
+curl -L -o datus-de-lever-quickstart-v1.zip.sha256 \
+  https://github.com/Datus-ai/datus-quickstart-data/releases/download/data-engineering-v1/datus-de-lever-quickstart-v1.zip.sha256
 
-shasum -a 256 datus-de-lever-quickstart-v1.zip
+shasum -a 256 -c datus-de-lever-quickstart-v1.zip.sha256
 unzip datus-de-lever-quickstart-v1.zip
 
 export DACOMP_HOME="$PWD/datus-de-lever-quickstart"
 cp "$DACOMP_HOME/lever_start.duckdb" "$DACOMP_HOME/lever_workbench.duckdb"
-```
-
-Expected SHA256:
-
-```text
-0e6b83c12c880152c9e29c76959b82f33d36fe2bb82b2c0b4b4d3b3ee2e44dc9  datus-de-lever-quickstart-v1.zip
 ```
 
 ## Source
