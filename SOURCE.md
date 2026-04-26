@@ -9,7 +9,6 @@ data-engineering dataset:
 - Source URL: https://huggingface.co/datasets/DAComp/dacomp-de
 - Original archive: `dacomp-de.zip`
 - Base directory: `dacomp-de-impl-001/`
-- SQL assets: `dacomp-de-evol-001/sql/`
 - Original dataset license: MIT
 
 The archive is repackaged for the Datus data-engineering quickstart so users do
@@ -26,15 +25,10 @@ Local runtime artifacts are intentionally excluded:
 
 - `.datus/`
 - `lever_workbench.duckdb`
+- `sql/`
 
 Users should create `lever_workbench.duckdb` from `lever_start.duckdb` when
 running the tutorial.
-
-The packaged SQL assets contain the layer files used by the quickstart:
-
-- `sql/staging/`: 24 files
-- `sql/intermediate/`: 17 files
-- `sql/marts/`: 14 files
 
 ## Citation
 
