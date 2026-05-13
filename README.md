@@ -31,6 +31,9 @@ unzip datus-dashboard-copilot-stack-v1.zip
 The source files for this lightweight package live under
 `dashboard-copilot-stack/superset/`.
 
+The source files for the data-engineering quickstart stack live under
+`data-engineering-quickstart-stack/`.
+
 Download and prepare it:
 
 ```bash

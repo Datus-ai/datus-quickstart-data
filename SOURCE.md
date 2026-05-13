@@ -30,6 +30,18 @@ Local runtime artifacts are intentionally excluded:
 Users should create `lever_workbench.duckdb` from `lever_start.duckdb` when
 running the tutorial.
 
+## datus-data-engineering-quickstart-stack-v1.zip
+
+This archive contains the Docker Compose stack used by the data-engineering
+quickstart:
+
+- `airflow/`
+- `lakehouse/`
+- `superset/`
+
+The source files are tracked in this repository under
+`data-engineering-quickstart-stack/`.
+
 ## Citation
 
 If you use DAComp, cite the original work:
