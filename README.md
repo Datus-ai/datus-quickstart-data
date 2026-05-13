@@ -28,6 +28,9 @@ shasum -a 256 -c datus-dashboard-copilot-stack-v1.zip.sha256
 unzip datus-dashboard-copilot-stack-v1.zip
 ```
 
+The source files for this lightweight package live under
+`dashboard-copilot-stack/superset/`.
+
 Download and prepare it:
 
 ```bash
