@@ -14,6 +14,25 @@ The `data-engineering-v1` release contains:
 - `datus-de-lever-quickstart-v1.zip.sha256`
 - `datus-data-engineering-quickstart-stack-v1.zip`
 - `datus-data-engineering-quickstart-stack-v1.zip.sha256`
+- `datus-dashboard-copilot-stack-v1.zip`
+- `datus-dashboard-copilot-stack-v1.zip.sha256`
+
+For Dashboard Copilot quickstart workflows, the dedicated lightweight package is:
+
+```bash
+curl -L -o datus-dashboard-copilot-stack-v1.zip \
+  https://github.com/Datus-ai/datus-quickstart-data/releases/download/data-engineering-v1/datus-dashboard-copilot-stack-v1.zip
+curl -L -o datus-dashboard-copilot-stack-v1.zip.sha256 \
+  https://github.com/Datus-ai/datus-quickstart-data/releases/download/data-engineering-v1/datus-dashboard-copilot-stack-v1.zip.sha256
+shasum -a 256 -c datus-dashboard-copilot-stack-v1.zip.sha256
+unzip datus-dashboard-copilot-stack-v1.zip
+```
+
+The source files for this lightweight package live under
+`dashboard-copilot-stack/superset/`.
+
+The source files for the data-engineering quickstart stack live under
+`data-engineering-quickstart-stack/`.
 
 Download and prepare it:
 
